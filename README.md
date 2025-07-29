@@ -1,45 +1,63 @@
-# Currency Converter – Python CLI App
+# 💱 Currency Converter – Python CLI App
 
 A simple command-line currency converter built with Python using the ExchangeRate-API.
 
-## Features
+---
+
+## 🚀 Features
 
 - Converts between any two currencies
 - Uses real-time exchange rates from ExchangeRate-API
-- Easy to use command-line interface
+- Easy-to-use command-line interface
 
-## Requirements
+---
+
+## 📦 Requirements
 
 - Python 3.x
 - `requests` library
 
-Install the `requests` library if you don't have it:
+Install the `requests` library:
 
 ```bash
 pip install requests
-Usage
-Replace the placeholder api_key in the script with your actual ExchangeRate-API key.
+```
 
-Run the script:
+---
 
-bash
-Copy
-Edit
+## 🧪 Usage
+
+1. Replace the placeholder `api_key` in the script with your actual ExchangeRate-API key.
+2. Run the script:
+
+```bash
 python converter.py
-Follow the prompts to enter the base currency, target currency, and amount.
+```
 
-Example
-mathematica
-Copy
-Edit
+3. Follow the prompts:
+
+```text
 Enter the base currency (e.g., USD): USD
 Enter the target currency (e.g., NZD): NZD
 Enter the amount: 100
 
 100 USD = 165.42 NZD
 Exchange rate: 1 USD = 1.6542 NZD
-Notes
-The API key should be kept private. Do not commit your actual key to public repositories.
+```
 
-You can add .env support or use environment variables for better security.
+---
 
+## 🔐 Notes
+
+- **Keep your API key private**. Do not commit it to public repositories.
+- To secure it better, consider:
+  - Using a `.env` file (with `python-dotenv`)
+  - Or storing the key in an environment variable
+
+---
+
+## 📁 Optional Project Enhancements
+
+- Add support for `.env` files
+- Build a fallback "offline mode" using hardcoded rates
+- Build a simple Tkinter GUI or convert to a web app

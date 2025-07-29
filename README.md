@@ -1,8 +1,3 @@
-Create a file named README.md in your project folder with this content:
-
-markdown
-Copy
-Edit
 # Currency Converter – Python CLI App
 
 A simple command-line currency converter built with Python using the ExchangeRate-API.

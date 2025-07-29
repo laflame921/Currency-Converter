@@ -1,5 +1,5 @@
 import requests
-api_key = "1651ad4ba023c73f16ed59df"
+api_key = ""
 base_url = f"https://v6.exchangerate-api.com/v6/{api_key}/pair/"
 
 def CurrencyConverter(base_currency, target_currency, amount):
